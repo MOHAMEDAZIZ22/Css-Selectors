@@ -1,0 +1,78 @@
+* {
+    background-color: gainsboro;
+    font-size: xx-large;
+}
+
+/* |pseudo class| */
+
+p:nth-child(2) {
+    background-color: red;
+}
+
+p:first-child {
+    background-color: red;
+}
+
+p:last-child {
+    background-color: blue;
+}
+
+/* |class selectors| */
+
+.p2 {
+    color: red;
+    font-weight: 600;
+}
+
+/* |id selectors| */
+
+#Aziz {
+    color: black;
+    font-size: xx-large;
+    background-color: blueviolet;
+}
+
+/* |element selectors| */
+
+h1 {
+    background-color: greenyellow;
+}
+
+/* group selectors */
+
+h2,p {
+    color: green;
+    background-color: black;
+}
+
+/* |pseudo element| */
+
+ul li::marker { 
+    color: green;
+}
+ol li::marker{
+color: green;
+}
+
+h3::first-line {
+    color: red;
+}
+
+h3::first-letter {
+    font-size: xx-large;
+}
+
+/* |child| */
+div>p {
+    color: yellow;
+}
+
+/* |sibiling | */
+div+p {
+    color: orange;
+}
+/* |attribute| */
+
+a[target =_blank] {
+    background-color: yellow;
+  }
